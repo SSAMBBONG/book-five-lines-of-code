@@ -1,0 +1,21 @@
+name: Pull Request Stats
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Run pull request stats
+        uses: flowwer-dev/pull-request-stats@master
+        with:
+          token: ${{ secrets.SSAMBBONG_TOKEN }}
+          organization: 'SSAMBBONG'
+          charts: true
+          disableLinks: false
+          sortBy: 'COMMENTS'
