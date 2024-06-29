@@ -19,8 +19,8 @@
   - `<number>`: 장 번호 (두 자릿수로 표현, 예: 01, 02)
   - `<title>`: 소제목
 - **예시**:
-  - `홍길동/chapter01_리팩터링 리팩터링하기/README.md`
-  - `김철수/chapter13_나쁜 코드를 식별 가능하게 만들기/README.md`
+  - `홍길동/chapter01_리팩터링_리팩터링하기/README.md`
+  - `김철수/chapter13_나쁜_코드를_식별_가능하게_만들기/README.md`
 
 ## Pull Request (PR) 규칙
 
